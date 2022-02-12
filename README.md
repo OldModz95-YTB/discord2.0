@@ -86,6 +86,24 @@ Ligne: `23`
 ### Main (chat/user online)
 <img src="./img/main.png">
 <br>
+<br>
+
+# FRANCAIS
+```
+Je ne fournirais aucun support sur son fonctionnement et la mise en place de cette source.
+Cette source date de début 2021 sorti dans la boutique ProtonDev.
+Décidé de rendre tout projet gratuit.
+```
+
+<br>
+<br>
+
+# ENGLISH
+```
+I would not provide any support on how it works and how to set up this source.
+This source is from early 2021 released in the ProtonDev store.
+Decided to make any project free.
+```
 
 <br>
 <br><br>
