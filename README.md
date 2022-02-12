@@ -32,7 +32,9 @@ https://discord.gg/MS6TMgRfqB
 <br><br>
 
 # 📥 Import DB
+
 <br>
+
 `localhost/phpmyadmin db-v1.0.sql`
 
 <br>
@@ -40,15 +42,15 @@ https://discord.gg/MS6TMgRfqB
 
 ## 🆙 Open Project
 
-[Download Visual Studio (min 2019)](https://visualstudio.microsoft.com/fr/downloads/)
+[Download Visual Studio (min 2019)](https://visualstudio.microsoft.com/fr/downloads/)<br>
 --Package C#
 
 <br><br>
 
 ## 🔧 Information
 
-Target Framework: .NET Framework 4.5
-Language: C# Windows Form and SQL
+Target Framework: .NET Framework 4.5<br>
+Language: C# Windows Form and SQL<br>
 
 <br><br>
 
@@ -69,19 +71,19 @@ Ligne: `23`
 
 <br>
 
-# Login
+### Login
 <img src="./img/login.png">
 <br>
 
-# Register
+### Register
 <img src="./img/register.png">
 <br>
 
-# Forgot password
+### Forgot password
 <img src="./img/mdp.png">
 <br>
 
-# Main (chat/user online)
+### Main (chat/user online)
 <img src="./img/main.png">
 <br>
 
