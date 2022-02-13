@@ -93,6 +93,9 @@ Ligne: `23`
 Je ne fournirais aucun support sur son fonctionnement et la mise en place de cette source.
 Cette source date de début 2021 sorti dans la boutique ProtonDev.
 Décidé de rendre tout projet gratuit.
+
+Cette source est proteger par sont développeur.
+Ce qui veux dire, que vous avez aucun droit de re-publié sa source ou de l'utiliser à des fin commercial.
 ```
 
 <br>
@@ -103,6 +106,9 @@ Décidé de rendre tout projet gratuit.
 I would not provide any support on how it works and how to set up this source.
 This source is from early 2021 released in the ProtonDev store.
 Decided to make any project free.
+
+This source is copyrighted by its developer.
+Meaning, you have no right to republish its source or use it for commercial purposes.
 ```
 
 <br>
