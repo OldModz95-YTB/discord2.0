@@ -24,6 +24,15 @@ OldModz95
 https://discord.gg/MS6TMgRfqB
 <br><br>
 
+
+## Video Tutoriel
+
+<a href="https://youtu.be/yJh1hE1Ac4s">
+<img src="https://i.imgur.com/4xS9DMT.jpg">
+</a>
+
+<br><br>
+
 # 📝 Require
 `mysql-connector-net-6.9.12`<br>
 [Download Xampp](https://www.apachefriends.org/fr/index.html)<br>
