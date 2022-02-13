@@ -139,7 +139,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(267, 15);
             this.label7.TabIndex = 9;
-            this.label7.Text = "Copyright © 2022 ProtonDev. All rights reserved.";
+            this.label7.Text = "Copyright © 2021 ProtonDev. All rights reserved.";
             // 
             // linkLabel1
             // 

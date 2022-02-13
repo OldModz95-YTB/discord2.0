@@ -12,9 +12,9 @@ using MySql.Data.MySqlClient;
 using System.Net.NetworkInformation;
 using System.Net;
 using System.Threading;
-// Copyright © 2022 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
 namespace RealTime_Chat
-{// Copyright © 2022 ProtonDev. All rights reserved.
+{// Copyright © 2021 ProtonDev. All rights reserved.
     public partial class Login : Form
     {
         Random r = new Random();
@@ -25,28 +25,28 @@ namespace RealTime_Chat
         public MySqlDataAdapter adtr;
         public MySqlDataReader dr;
         public DataSet ds;
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         public Login()
         {
             InitializeComponent();
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         #region MouseMove
         private void panel1_MouseMove(object sender, MouseEventArgs e)
-        {// Copyright © 2022 ProtonDev. All rights reserved.
+        {// Copyright © 2021 ProtonDev. All rights reserved.
             if (suruklenmedurumu) 
             {
                 this.Left = e.X + this.Left - (ilkkonum.X);
                 this.Top = e.Y + this.Top - (ilkkonum.Y);
             }
-        }// Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        }// Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             suruklenmedurumu = true; 
@@ -65,40 +65,40 @@ namespace RealTime_Chat
             Application.Exit();
         }
         #endregion
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void btnRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {// Copyright © 2022 ProtonDev. All rights reserved.
+        {// Copyright © 2021 ProtonDev. All rights reserved.
             Register reg = new Register();
             reg.Show();
             this.Hide();
-            // Copyright © 2022 ProtonDev. All rights reserved.
-        }// Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
+            // Copyright © 2021 ProtonDev. All rights reserved.
+        }// Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void btnLogin_Click(object sender, EventArgs e)
-        {// Copyright © 2022 ProtonDev. All rights reserved.
+        {// Copyright © 2021 ProtonDev. All rights reserved.
             SignIn(txtUsername.Text, txtPassword.Text);
-        }// Copyright © 2022 ProtonDev. All rights reserved.
+        }// Copyright © 2021 ProtonDev. All rights reserved.
         #region SignIn
         private void SignIn(String username, String password) {
-            // Copyright © 2022 ProtonDev. All rights reserved.
+            // Copyright © 2021 ProtonDev. All rights reserved.
             try
-            {// Copyright © 2022 ProtonDev. All rights reserved.
+            {// Copyright © 2021 ProtonDev. All rights reserved.
                 db.Close();
                 db.Open();
                 cmd = new MySqlCommand("Select *From user where username  ='" + username + "'", db);
                 dr = cmd.ExecuteReader();
                 if (username.Trim() != "" && password.Trim() != "")
-                {// Copyright © 2022 ProtonDev. All rights reserved.
+                {// Copyright © 2021 ProtonDev. All rights reserved.
                     Ping ping = new Ping();
                     PingReply pingStatus = ping.Send(IPAddress.Parse("216.58.209.14"));
                     if (pingStatus.Status == IPStatus.Success)
-                    {// Copyright © 2022 ProtonDev. All rights reserved.
+                    {// Copyright © 2021 ProtonDev. All rights reserved.
                         if (dr.Read())
-                        {// Copyright © 2022 ProtonDev. All rights reserved.
+                        {// Copyright © 2021 ProtonDev. All rights reserved.
                             if (username.ToString() == dr["username"].ToString())
-                            {// Copyright © 2022 ProtonDev. All rights reserved.
+                            {// Copyright © 2021 ProtonDev. All rights reserved.
                                 if (password.ToString() == dr["password"].ToString())
-                                {// Copyright © 2022 ProtonDev. All rights reserved.
+                                {// Copyright © 2021 ProtonDev. All rights reserved.
                                     String id = dr["id"].ToString();
                                     Properties.Settings.Default.id = Convert.ToInt16(dr["id"]);
                                     Properties.Settings.Default.username = dr["username"].ToString();
@@ -108,58 +108,58 @@ namespace RealTime_Chat
                                     Properties.Settings.Default.secretanswer = dr["secretanswer"].ToString();
                                     Properties.Settings.Default.status = Convert.ToInt16(dr["status"]);
                                     Properties.Settings.Default.Save();
-                                    db.Close();// Copyright © 2022 ProtonDev. All rights reserved.
-                                    cmd = new MySqlCommand();// Copyright © 2022 ProtonDev. All rights reserved.
-                                    db.Open();// Copyright © 2022 ProtonDev. All rights reserved.
+                                    db.Close();// Copyright © 2021 ProtonDev. All rights reserved.
+                                    cmd = new MySqlCommand();// Copyright © 2021 ProtonDev. All rights reserved.
+                                    db.Open();// Copyright © 2021 ProtonDev. All rights reserved.
                                     cmd.Connection = db;
-                                    cmd.CommandText = "Update user set status='" + 1 + "' where id=" + id + "";// Copyright © 2022 ProtonDev. All rights reserved.
-                                    cmd.ExecuteNonQuery();// Copyright © 2022 ProtonDev. All rights reserved.
-                                    db.Close();// Copyright © 2022 ProtonDev. All rights reserved.
-                                    Main main = new Main();// Copyright © 2022 ProtonDev. All rights reserved.
-                                    main.Show();// Copyright © 2022 ProtonDev. All rights reserved.
-                                    this.Hide();// Copyright © 2022 ProtonDev. All rights reserved.
-                                }// Copyright © 2022 ProtonDev. All rights reserved.
-                                else// Copyright © 2022 ProtonDev. All rights reserved.
-                                {// Copyright © 2022 ProtonDev. All rights reserved.
+                                    cmd.CommandText = "Update user set status='" + 1 + "' where id=" + id + "";// Copyright © 2021 ProtonDev. All rights reserved.
+                                    cmd.ExecuteNonQuery();// Copyright © 2021 ProtonDev. All rights reserved.
+                                    db.Close();// Copyright © 2021 ProtonDev. All rights reserved.
+                                    Main main = new Main();// Copyright © 2021 ProtonDev. All rights reserved.
+                                    main.Show();// Copyright © 2021 ProtonDev. All rights reserved.
+                                    this.Hide();// Copyright © 2021 ProtonDev. All rights reserved.
+                                }// Copyright © 2021 ProtonDev. All rights reserved.
+                                else// Copyright © 2021 ProtonDev. All rights reserved.
+                                {// Copyright © 2021 ProtonDev. All rights reserved.
                                     MessageBox.Show("Your password is missing or incorrect..", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                                     db.Close();
-                                }// Copyright © 2022 ProtonDev. All rights reserved.
-                            }// Copyright © 2022 ProtonDev. All rights reserved.
+                                }// Copyright © 2021 ProtonDev. All rights reserved.
+                            }// Copyright © 2021 ProtonDev. All rights reserved.
                             else
-                            {// Copyright © 2022 ProtonDev. All rights reserved.
+                            {// Copyright © 2021 ProtonDev. All rights reserved.
                                 MessageBox.Show("Your username is missing or incorrect.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                                 db.Close();
-                            }// Copyright © 2022 ProtonDev. All rights reserved.
-                        }// Copyright © 2022 ProtonDev. All rights reserved.
+                            }// Copyright © 2021 ProtonDev. All rights reserved.
+                        }// Copyright © 2021 ProtonDev. All rights reserved.
                         else
-                        {// Copyright © 2022 ProtonDev. All rights reserved.
-                            MessageBox.Show("No such user.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Information);// Copyright © 2022 ProtonDev. All rights reserved.
-                            db.Close();// Copyright © 2022 ProtonDev. All rights reserved.
-                        }// Copyright © 2022 ProtonDev. All rights reserved.
-                    }// Copyright © 2022 ProtonDev. All rights reserved.
-                    else// Copyright © 2022 ProtonDev. All rights reserved.
-                    {// Copyright © 2022 ProtonDev. All rights reserved.
-                        MessageBox.Show("Check your Internet connection.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);// Copyright © 2022 ProtonDev. All rights reserved.
-                        db.Close();// Copyright © 2022 ProtonDev. All rights reserved.
-                    }// Copyright © 2022 ProtonDev. All rights reserved.
-                }// Copyright © 2022 ProtonDev. All rights reserved.
-            }// Copyright © 2022 ProtonDev. All rights reserved.
-            catch (MySqlException ex)// Copyright © 2022 ProtonDev. All rights reserved.
-            {// Copyright © 2022 ProtonDev. All rights reserved.
-                MessageBox.Show(ex.Message.ToString());// Copyright © 2022 ProtonDev. All rights reserved.
-            }// Copyright © 2022 ProtonDev. All rights reserved.
-        }// Copyright © 2022 ProtonDev. All rights reserved.
-        #endregion// Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
-        private void btnForgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)// Copyright © 2022 ProtonDev. All rights reserved.
-        {// Copyright © 2022 ProtonDev. All rights reserved.
-            Forgot forgot = new Forgot();// Copyright © 2022 ProtonDev. All rights reserved.
-            forgot.Show();// Copyright © 2022 ProtonDev. All rights reserved.
-            this.Hide();// Copyright © 2022 ProtonDev. All rights reserved.
-        }// Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
-        private void Login_Load(object sender, EventArgs e)// Copyright © 2022 ProtonDev. All rights reserved.
-        {// Copyright © 2022 ProtonDev. All rights reserved.
+                        {// Copyright © 2021 ProtonDev. All rights reserved.
+                            MessageBox.Show("No such user.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Information);// Copyright © 2021 ProtonDev. All rights reserved.
+                            db.Close();// Copyright © 2021 ProtonDev. All rights reserved.
+                        }// Copyright © 2021 ProtonDev. All rights reserved.
+                    }// Copyright © 2021 ProtonDev. All rights reserved.
+                    else// Copyright © 2021 ProtonDev. All rights reserved.
+                    {// Copyright © 2021 ProtonDev. All rights reserved.
+                        MessageBox.Show("Check your Internet connection.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);// Copyright © 2021 ProtonDev. All rights reserved.
+                        db.Close();// Copyright © 2021 ProtonDev. All rights reserved.
+                    }// Copyright © 2021 ProtonDev. All rights reserved.
+                }// Copyright © 2021 ProtonDev. All rights reserved.
+            }// Copyright © 2021 ProtonDev. All rights reserved.
+            catch (MySqlException ex)// Copyright © 2021 ProtonDev. All rights reserved.
+            {// Copyright © 2021 ProtonDev. All rights reserved.
+                MessageBox.Show(ex.Message.ToString());// Copyright © 2021 ProtonDev. All rights reserved.
+            }// Copyright © 2021 ProtonDev. All rights reserved.
+        }// Copyright © 2021 ProtonDev. All rights reserved.
+        #endregion// Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
+        private void btnForgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)// Copyright © 2021 ProtonDev. All rights reserved.
+        {// Copyright © 2021 ProtonDev. All rights reserved.
+            Forgot forgot = new Forgot();// Copyright © 2021 ProtonDev. All rights reserved.
+            forgot.Show();// Copyright © 2021 ProtonDev. All rights reserved.
+            this.Hide();// Copyright © 2021 ProtonDev. All rights reserved.
+        }// Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
+        private void Login_Load(object sender, EventArgs e)// Copyright © 2021 ProtonDev. All rights reserved.
+        {// Copyright © 2021 ProtonDev. All rights reserved.
             //If you want the program to open once, remove the lines.
             /*
              Mutex Mtx = new Mutex(false, "SINGLE_INSTANCE_APP_MUTEX");
@@ -170,17 +170,17 @@ namespace RealTime_Chat
                 Application.Exit();
             }
              */
-        }// Copyright © 2022 ProtonDev. All rights reserved.
-        // Copyright © 2022 ProtonDev. All rights reserved.
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)// Copyright © 2022 ProtonDev. All rights reserved.
-        {// Copyright © 2022 ProtonDev. All rights reserved.
-         new contact().Show();// Copyright © 2022 ProtonDev. All rights reserved.
-        }// Copyright © 2022 ProtonDev. All rights reserved.
-    }// Copyright © 2022 ProtonDev. All rights reserved.
-}// Copyright © 2022 ProtonDev. All rights reserved.
- // Copyright © 2022 ProtonDev. All rights reserved.
- // Copyright © 2022 ProtonDev. All rights reserved.
- // Copyright © 2022 ProtonDev. All rights reserved.
- // Copyright © 2022 ProtonDev. All rights reserved.
- // Copyright © 2022 ProtonDev. All rights reserved.
- // Copyright © 2022 ProtonDev. All rights reserved.
+        }// Copyright © 2021 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)// Copyright © 2021 ProtonDev. All rights reserved.
+        {// Copyright © 2021 ProtonDev. All rights reserved.
+            new contact().Show();// Copyright © 2021 ProtonDev. All rights reserved.
+        }// Copyright © 2021 ProtonDev. All rights reserved.
+    }// Copyright © 2021 ProtonDev. All rights reserved.
+}// Copyright © 2021 ProtonDev. All rights reserved.
+ // Copyright © 2021 ProtonDev. All rights reserved.
+ // Copyright © 2021 ProtonDev. All rights reserved.
+ // Copyright © 2021 ProtonDev. All rights reserved.
+ // Copyright © 2021 ProtonDev. All rights reserved.
+ // Copyright © 2021 ProtonDev. All rights reserved.
+ // Copyright © 2021 ProtonDev. All rights reserved.

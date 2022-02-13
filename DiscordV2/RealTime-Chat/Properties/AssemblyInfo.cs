@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("OldModz95 - ProtonDev")]
 [assembly: AssemblyProduct("The Best Realtime chat")]
-[assembly: AssemblyCopyright("Copyright ©  2022 - ProtonDev")]
+[assembly: AssemblyCopyright("Copyright ©  2020 - OldModz95")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -14,7 +14,7 @@ using System.Net;
 using System.Threading;
 namespace RealTime_Chat
 {
-    // Copyright © 2022 ProtonDev. All rights reserved.
+    // Copyright © 2021 ProtonDev. All rights reserved.
     public partial class Main : Form
     {
         Random r = new Random();
@@ -44,7 +44,7 @@ namespace RealTime_Chat
             db.Close();
             Application.Exit();
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void panel1_MouseMove(object sender, MouseEventArgs e)
         {
             if (suruklenmedurumu)
@@ -53,20 +53,20 @@ namespace RealTime_Chat
                 this.Top = e.Y + this.Top - (ilkkonum.Y);
             }
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             suruklenmedurumu = true;
             this.Cursor = Cursors.SizeAll;
             ilkkonum = e.Location; 
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void panel1_MouseUp(object sender, MouseEventArgs e)
         {
             suruklenmedurumu = false;
             this.Cursor = Cursors.Default; 
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void Main_Load(object sender, EventArgs e)
         {
             logId = Properties.Settings.Default.id;
@@ -79,7 +79,7 @@ namespace RealTime_Chat
             sohbet.IsBackground = true;
             sohbet.Start();
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void OnlineLists()
         {
             try
@@ -101,7 +101,7 @@ namespace RealTime_Chat
             catch (Exception ex)
             { MessageBox.Show("lstOnline Error : " + ex.Message.ToString() ); }
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void txtMsg_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -110,17 +110,17 @@ namespace RealTime_Chat
                 e.Handled = true;
             }
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             SendMessage(txtMsg.Text);
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             new contact().Show();
         }
-        // Copyright © 2022 ProtonDev. All rights reserved.
+        // Copyright © 2021 ProtonDev. All rights reserved.
         private void AllMessageLists()
         {
             while (true)
@@ -151,7 +151,7 @@ namespace RealTime_Chat
                     MessageBox.Show(ex.ToString());
                 }
             }
-        }// Copyright © 2022 ProtonDev. All rights reserved.
+        }// Copyright © 2021 ProtonDev. All rights reserved.
         private void SendMessage(String mssg)
         {
             try
@@ -167,8 +167,8 @@ namespace RealTime_Chat
                 cmd.Dispose();
                 db.Close();
                 txtMsg.Text = "";
-                // Copyright © 2022 ProtonDev. All rights reserved.
-                // Copyright © 2022 ProtonDev. All rights reserved.
+                // Copyright © 2021 ProtonDev. All rights reserved.
+                // Copyright © 2021 ProtonDev. All rights reserved.
             }
             catch (Exception err)
             {
@@ -186,19 +186,19 @@ namespace RealTime_Chat
             threadim.Start();
         }
          */
-    }// Copyright © 2022 ProtonDev. All rights reserved.
+    }// Copyright © 2021 ProtonDev. All rights reserved.
 }
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
-// Copyright © 2022 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.
+// Copyright © 2021 ProtonDev. All rights reserved.

@@ -88,15 +88,15 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(272, 15);
             this.label7.TabIndex = 10;
-            this.label7.Text = "Copyright © 2022 OldModz95. All rights reserved.";
+            this.label7.Text = "Copyright © 2021 OldModz95. All rights reserved.";
             // 
             // banner
             // 
             this.banner.Image = ((System.Drawing.Image)(resources.GetObject("banner.Image")));
-            this.banner.Location = new System.Drawing.Point(147, 116);
+            this.banner.Location = new System.Drawing.Point(56, 139);
             this.banner.Name = "banner";
-            this.banner.Size = new System.Drawing.Size(299, 92);
-            this.banner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.banner.Size = new System.Drawing.Size(468, 60);
+            this.banner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.banner.TabIndex = 11;
             this.banner.TabStop = false;
             this.banner.Visible = false;
@@ -121,7 +121,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 35);
             this.button1.TabIndex = 13;
-            this.button1.Text = "Bot Discord PicWorld";
+            this.button1.Text = "Web Site";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
