@@ -74,3 +74,28 @@ D:\dev\Chat C# and PHP (simple)\The Best Realtime Chat\RealTime-Chat\RealTime-Ch
 D:\dev\Chat C# and PHP (simple)\The Best Realtime Chat\RealTime-Chat\RealTime-Chat\obj\Debug\RealTime-Chat.csproj.CopyComplete
 D:\dev\Chat C# and PHP (simple)\The Best Realtime Chat\RealTime-Chat\RealTime-Chat\obj\Debug\The Best Realtime chat.exe
 D:\dev\Chat C# and PHP (simple)\The Best Realtime Chat\RealTime-Chat\RealTime-Chat\obj\Debug\The Best Realtime chat.pdb
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\The Best Realtime chat.exe.config
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\The Best Realtime chat.exe
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\The Best Realtime chat.pdb
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\System.Data.dll
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\System.Deployment.dll
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\System.dll
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\System.Drawing.dll
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\System.Windows.Forms.dll
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\System.Xml.dll
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\System.Xml.Linq.dll
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\bin\Debug\MySql.Data.xml
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime-Chat.csproj.AssemblyReference.cache
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime_Chat.contact.resources
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime_Chat.Forgot.resources
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime_Chat.Main.resources
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime_Chat.Register.resources
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime_Chat.Login.resources
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime_Chat.Properties.Resources.resources
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime-Chat.csproj.GenerateResource.cache
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime-Chat.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\RealTime-Chat.csproj.CopyComplete
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\The Best Realtime chat.exe
+C:\Users\Shadow\Desktop\99999\discord2.0-main\DiscordV2\RealTime-Chat\obj\Debug\The Best Realtime chat.pdb

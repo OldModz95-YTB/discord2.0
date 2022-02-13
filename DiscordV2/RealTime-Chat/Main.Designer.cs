@@ -167,6 +167,7 @@
             this.sendonline.Size = new System.Drawing.Size(34, 32);
             this.sendonline.TabIndex = 11;
             this.sendonline.UseVisualStyleBackColor = true;
+            this.sendonline.Click += new System.EventHandler(this.sendonline_Click);
             // 
             // Main
             // 

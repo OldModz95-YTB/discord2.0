@@ -28,12 +28,12 @@ namespace RealTime_Chat// Copyright © 2021 ProtonDev. All rights reserved.
         // Copyright © 2021 ProtonDev. All rights reserved.
         private void btnRegister_Click(object sender, EventArgs e)// Copyright © 2021 ProtonDev. All rights reserved.
         {// Copyright © 2021 ProtonDev. All rights reserved.
-            System.Diagnostics.Process.Start("https://discord.gg/3t2568W");// Copyright © 2021 ProtonDev. All rights reserved.
+            System.Diagnostics.Process.Start("https://discord.gg/protondev");// Copyright © 2021 ProtonDev. All rights reserved.
         }// Copyright © 2021 ProtonDev. All rights reserved.
         // Copyright © 2021 ProtonDev. All rights reserved.
         private void button1_Click(object sender, EventArgs e)// Copyright © 2021 ProtonDev. All rights reserved.
         {// Copyright © 2021 ProtonDev. All rights reserved.
-            System.Diagnostics.Process.Start("https://shop.protondev.eu/fr/nous-contacter");// Copyright © 2021 ProtonDev. All rights reserved.
+            System.Diagnostics.Process.Start("https://picworld.protondev.ey");// Copyright © 2021 ProtonDev. All rights reserved.
         }// Copyright © 2021 ProtonDev. All rights reserved.
         // Copyright © 2021 ProtonDev. All rights reserved.
         private void panel1_MouseMove(object sender, MouseEventArgs e)// Copyright © 2021 ProtonDev. All rights reserved.

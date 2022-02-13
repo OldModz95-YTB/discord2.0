@@ -20,7 +20,7 @@ namespace RealTime_Chat
         Random r = new Random();
         bool suruklenmedurumu = false;
         Point ilkkonum;
-        public MySqlConnection db = new MySqlConnection("Server=localhost;Database=chat;Uid=root;Pwd='';");
+        public MySqlConnection db = new MySqlConnection("Server=localhost;Database=discordchat;Uid=root;Pwd='';");
         public MySqlCommand cmd = new MySqlCommand();
         public MySqlDataAdapter adtr;
         public MySqlDataReader dr;

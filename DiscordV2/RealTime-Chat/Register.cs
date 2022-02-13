@@ -20,7 +20,7 @@ namespace RealTime_Chat
         Random r = new Random();// Copyright © 2021 ProtonDev. All rights reserved.
         bool suruklenmedurumu = false;// Copyright © 2021 ProtonDev. All rights reserved.
         Point ilkkonum;// Copyright © 2021 ProtonDev. All rights reserved.
-        public MySqlConnection db = new MySqlConnection("Server=localhost;Database=chatc;Uid=root;Pwd='';");// Copyright © 2021 ProtonDev. All rights reserved.
+        public MySqlConnection db = new MySqlConnection("Server=localhost;Database=discordchat;Uid=root;Pwd='';");// Copyright © 2021 ProtonDev. All rights reserved.
         public MySqlCommand cmd = new MySqlCommand();// Copyright © 2021 ProtonDev. All rights reserved.
         public MySqlDataAdapter adtr;// Copyright © 2021 ProtonDev. All rights reserved.
         public MySqlDataReader dr;// Copyright © 2021 ProtonDev. All rights reserved.

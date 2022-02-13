@@ -22,7 +22,7 @@ namespace RealTime_Chat
         Point ilkkonum;
         int logId, logStatus;
         string logUsername, logFullname;
-        public MySqlConnection db = new MySqlConnection("Server=localhost;Database=chatc;Uid=root;Pwd='';");
+        public MySqlConnection db = new MySqlConnection("Server=localhost;Database=discordchat;Uid=root;Pwd='';");
         public MySqlCommand cmd = new MySqlCommand();
         public MySqlDataAdapter adtr;
         public MySqlDataReader dr;
@@ -120,6 +120,12 @@ namespace RealTime_Chat
         {
             new contact().Show();
         }
+
+        private void sendonline_Click(object sender, EventArgs e)
+        {
+            SendMessage(txtMsg.Text);
+        }
+
         // Copyright © 2021 ProtonDev. All rights reserved.
         private void AllMessageLists()
         {
